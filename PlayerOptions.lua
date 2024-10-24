@@ -1966,7 +1966,7 @@ function PlayerOptions:Shuffle(value, approach_speed, chainCommand) end
 function PlayerOptions:SinClip(value, approach_speed, chainCommand) end
 
 ---@return number|self, number
----@param value boolean
+---@param value? boolean
 ---@param chainCommand? boolean
 function PlayerOptions:Skew(value, chainCommand) end
 
